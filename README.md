@@ -1,46 +1,52 @@
-# Nome do Projeto
+# Nome do Projeto: DoctorSus
 > Um nome provisório que resuma bem a ideia. Seja criativo, mas claro!
 
 ## 👨‍🎓 Integrantes
-- Nome do Estudante 1
-- Nome do Estudante 2
-- ...
+- Clarissa de Lucena Nóbrega
+- Felipe Braz da Silva
+- Marcelo Ribeiro da Silva
 
 ## 💡 Ideia Principal
-Descreva em poucas linhas o que o projeto propõe fazer. 
-Pense como se estivesse explicando para alguém fora da área de tecnologia.
+Criar um sistema de automação para auxílio de diagnóstico de pacientes que funcionaria da seguinte forma:
+- A enfermeira realiza a triagem (pré-atendimento) dos pacientes, classificando a urgência do atendimento;
+- O agente receberia esses dados e passaria as possíveis doenças que o paciente poderia ter;
+- O médico já teria em posse esse documento para auxiliá-lo no diagnóstico e nos possíveis encaminhamentos.
 
 ## 🎯 Objetivos
 - Liste de forma clara o que o sistema pretende resolver ou melhorar.
 - Pode usar bullets ou parágrafos curtos.
 
 ## 👥 Público-Alvo
-Quem se beneficia com esse projeto? Um setor específico? Um tipo de usuário?
+- Pacientes do SUS
+- Profissionais de saúde
+
 
 ## 🤖 Agentes Envolvidos
-Liste os agentes que existirão no sistema e suas funções.
-Exemplo:
-- Agente A: coleta dados
-- Agente B: toma decisões
-- Agente C: executa ações no ambiente
+- Agente coletor de dados
+- Agente consumidor de dados
+
 
 ## 🧱 Tecnologias Pretendidas
-- Linguagem de programação
-- Bibliotecas e frameworks
-- Ferramentas para teste, simulação, visualização, etc.
+- Tecnologias Web para interface: Para criação de interface para coleta de dados que será utilizada por enfermeira.
+- LLM
+- Ferramenta para criação de agente de IA
+
 
 > Justifique, sempre que possível, **por que escolheu cada ferramenta**.
 
 ## 📦 Entradas e Saídas Esperadas
-**Entradas:**
-- Quais dados o sistema recebe?
+**Entradas:**  
+- Quais dados o sistema recebe?  
+O sistema irá receber informações de sinais vitais do paciente (pressão arterial, saturação de oxigênio), condições relatadas por ele (alergias, uso de medicamentos) e sintomas que está sentindo.  
 
-**Saídas:**
-- Quais ações ou informações ele gera?
+**Saídas:**  
+- Quais ações ou informações ele gera?  
+Prestar auxílio ao médico através de um pequeno relatório indicando possíveis exames e/ou encaminhamentos para outras especialidades.  
 
 ## 🔁 Interação entre os Agentes
-Descreva como os agentes vão se comunicar ou se coordenar.
-Pode ser uma descrição textual ou um fluxograma em breve.
+- Como os agentes vão se comunicar ou se coordenar?  
+O **agente coletor de dados** recebe as informações inseridas pela enfermeira e as envia para o **agente consumidor de dados**, que processa essas informações utilizando um modelo de IA. O agente consumidor então gera um relatório com sugestões de exames e encaminhamentos. Esse relatório é entregue ao médico, que irá analisar e tomar a decisão final sobre o tratamento do paciente.  
+
 
 ## 🗂️ Organização e Planejamento do Projeto
 O progresso deste projeto será monitorado através do **GitHub Projects**.
@@ -54,8 +60,8 @@ Cada integrante deve ser responsável por pelo menos uma tarefa no quadro.
 Use etiquetas (labels) e comentários para detalhar o andamento e as decisões.
 
 ## 📌 Status Inicial do Projeto
-- [ ] Ideia discutida e validada com o professor
-- [ ] Estrutura básica do repositório criada
+- [x] Ideia discutida e validada com o professor
+- [x] Estrutura básica do repositório criada
 - [ ] Quadro no GitHub Projects criado
 - [ ] Primeiras tarefas definidas e atribuídas
 
