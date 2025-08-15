@@ -1,0 +1,463 @@
+[
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "objetivo",
+    "id_secao": "1",
+    "titulo_secao": "OBJETIVO",
+    "texto": "Orientar e definir procedimentos operativos em condições de desligamento total da SE Pólo (PLO) a serem adotados pelos Operadores de Sistema (OPS) do OPS e Técnicos de O&M da SE JCR."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.1",
+    "texto": "2.1 No desligamento geral da SE, o OPS é o responsável pela ativação da ferramenta de \"Preparação Automática\" da instalação."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.2",
+    "texto": "2.2 Os equipamentos da SE PLO possuem supervisão de eventos e alarmes de sinalização através do SAGE na DOSSS e na SE PLO."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.3",
+    "texto": "2.3 Na SE PLO a IHM SAGE deve estar normalmente no nível 3."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.4",
+    "texto": "2.4 A mudança de configuração dos barramentos de 230 kV é executada com controle do ONS."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.5",
+    "texto": "2.5 Os barramentos de 230 kV, pertencentes à Rede de Operação, têm a sua regulação de tensão controlada pelo ONS."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.6",
+    "texto": "2.6 A movimentação dos comutadores sob carga da transformação 230/69 kV é executada com autonomia pela operação da Chesf."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.7",
+    "texto": "2.7 Caso haja a necessidade da SE PLO ser atendida localmente, o OPS deve delegar a ação aos Técnicos de O&M da SE JCR que estão em horário comercial. Fora do horário comercial, o OPS deve acionar o Técnico de Sobreaviso. Na impossibilidade de contato com o Técnico de Sobreaviso contatar o Encarregado da Instalação. Caso também não haja sucesso, contatar o gerente da Divisão Regional de Manutenção."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.8",
+    "texto": "2.8 Durante a permanência do Técnico de O&M da SE JCR na SE PLO, os alarmes sonoros do SAGE e dos painéis convencionais da Instalação devem permanecer habilitados. Ao ausentar-se da instalação, o Técnico de O&M da SE JCR deve desabilitar os referidos alarmes."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.9",
+    "texto": "2.9 O religamento automático das linhas deve permanecer como encontrava-se antes da ocorrência. Salvo quando o tipo da ocorrência sugerir a sua desativação."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.10",
+    "texto": "2.10 O automatismo dos serviços auxiliares deve estar normalmente ativado, permitindo acomutação automática para o GGE em caso de perda da fonte principal."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.11",
+    "texto": "2.11 A faixa de LTC para energização dos trafos deve ser as recomendadas pelo DOOE."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.12",
+    "texto": "2.12 As LT de alto risco de concessionárias só devem ser religadas após autorização das mesmas, exceto na recomposição fluente. Conforme IO-S.10 esta SE não possui LT de alto risco."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.13",
+    "texto": "2.13 Não energizar nem manter energizados os barramentos fora das faixas de tensão abaixo, durante a recomposição, exceto nos casos permitidos pela Chesf:"
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.1",
+    "texto": "3.1 Identificar se o desligamento foi \"total\", caracterizado pela falta total de tensão na instalação (barras e linhas/links), exceto serviços auxiliares. Se não for \"total\" prosseguir conforme os procedimentos descritos na IN-OP.01.006."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.2",
+    "texto": "3.2 Adotar as providências para normalizar a instalação, e se necessário, solicitar o apoio do Técnico de O&M da SE JCR para reconhecimento da ocorrência e demais providências necessárias."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.3",
+    "texto": "3.3 Identificar configuração dos Serviços Auxiliares através do GGE. Se necessário, solicitar apoio do Técnico de O&M da SE JCR para ligar a iluminação de emergência e reenergizar os Serviços Auxiliares pela fonte disponível."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.4",
+    "texto": "3.4 Analisar as sinalizações e/ou alarmes do SAGE, a configuração da SE e a atuação de chaves de bloqueio, visando caracterizar ou não impedimentos, conforme IN-OP.01.006."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.5",
+    "texto": "3.5 Não existindo impedimento prosseguir, caso contrário ir para o subitem 3.6.\nUtilizar o Anexo I quando do desligamento total a Região Nordeste e o Anexo II para os\ndemais casos. Preparar e recompor a SE PLO, ou opcionalmente delegar ao Técnico de\nO&M da SE SE JCR, na sequência descrita no anexo correspondente, efetuando contato\ncom COSR-NE, no item que exigir sua autorização. No caso da recomposição ser efetuada\npelo Técnico de O&M da SE JCR, este deve fazer contato com o OPS sempre que o item\nexigir autorização do mesmo."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6",
+    "texto": "3.6 Existindo impedimento:"
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6.1",
+    "texto": "3.6.1 Confirmada a existência de impedimento, caracterizado por:\na) Incêndios e/ou acidentes pessoais na SE PLO, considerar a instalação em SITUAÇÃO\nDE EMERGÊNCIA, utilizar o Plano de Ação Emergencial – PAE da instalação;\nacionar o Técnico de O&M da SE JCR, para as providências abaixo no pátio e\ninformar a ocorrência ao DOSSC:\n• Avaliar o cenário e isolar eletricamente as áreas afetadas;\n• Prestar os primeiros socorros e encaminhar os acidentados à assistência médica;\n• Tomar providências de combate a incêndio (Brigada contra incêndio);\n• Informar detalhes da ocorrência ao OPS para conclusão das manobras que se\nfizerem necessárias;\n• Acionar, caso necessário, o Corpo de Bombeiros e a Defesa Civil.\nb) Proteções atuadas na SE PLO de acordo com a IN-OP.01.006, acionar o Técnico de\nO&M da SE JCR, para as seguintes providências no pátio:\n• Inspecionar as linhas e equipamentos envolvidos;\n• Isolar eletricamente os equipamentos impedidos ou confirmar visualmente, caso já\ntenha sido isolado pelo OPS;\n• Rearmar os dispositivos de bloqueio, caso não tenha sido feito pelo OPS."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6.2",
+    "texto": "3.6.2 Solicitar do Técnico de O&M da SE JCR, as seguintes informações:\n• Confirmação dos equipamentos impedidos ou outros impedimentos e motivos dosmesmos;\n• Principais sinalizações indicadas, chaves de bloqueios e proteções atuadas;\n• Resultados da inspeção no pátio e as ações de isolamento adotadas ouconfirmadas;\n• Providências tomadas e a configuração atual da instalação."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6.3",
+    "texto": "3.6.3 Recompor a instalação, após o isolamento do equipamento impedido, considerando a nova configuração, ou solicitar a recomposição pelo Técnico de O&M da SE JCR, definindo qual a sequência de manobras a ser adotada."
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO I|1",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO I",
+    "titulo_secao": "ANEXO I - PROCEDIMENTOS DA SE PLO APÓS Desligamento TOTAL da Região Nordeste",
+    "numero_item": "1",
+    "numero_tabela": "1",
+    "titulo_tabela": "TABELA I - Preparação da SE PLO para recomposição coordenada após Desligamento Total da Região Nordeste, conforme subitem 5.2.1 da IO-OI.NE.PLO",
+    "texto":"Estrutura: TABELA I (coluna item, procedimento, hora) Conteúdo: ITEM 1: Confirmar ou colocar IHM no nível 3. \nITEM 2: Rearmar as chaves de bloqueio atuadas\nITEM 3:OPS – Executar a ferramenta de “Preparação Automática” para abertura de todos os disjuntores de 230, 69 e 13.8 kV da Chesf, exceto 14D1.\nITEM 4: Confirmar aberto ou abrir todos os disjuntores de 230, 69 kV e 13.8 kV operados pela CHESF, exceto o 14D1.\nITEM 5: Confirmar fechado ou fechar o 14D1.\nITEM 6:Confirmar abertos os disjuntores 14C1, 14C2, 14P1, 14P2 (AFLUENTE), 14P3 (GUARANI) e 14P4 (APOENA), caso negativo, o OPS deve solicitar ao COSR-NE fechamento por parte dos acessantes.\nITEM 7:Colocar comutador de tape do 04T1/T2/T3 na posição “Manual/Individual”.\nITEM 8:Posicionar tape do:• 1o Transformador fase coordenada - 04T1ou 04T2 ou 04T3 na faixa de 4 a 7;• 2o Transformador fase coordenada - 04T1ou 04T2 ou 04T3 na faixa de 4 a 7;• 3o Transformador fase coordenada - 04T1 ou 04T2 ou 04T3 na faixa de 4 a 7.\nITEM 9: Confirmar 04B1 e 04B2 sem tensão.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO I|2",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO I",
+    "titulo_secao": "ANEXO I - PROCEDIMENTOS DA SE PLO APÓS Desligamento TOTAL da Região Nordeste",
+    "numero_item": "1",
+    "numero_tabela": "2",
+    "titulo_tabela": "TABELA II - Recomposição Coordenada da SE PLO após Desligamento Total da Região Nordeste, conforme subitem 5.1 da IO-RR.NE.PAQ",
+    "texto": "Estrutura: TABELA II (coluna ITEM, SEQUÊNCIA DE FECHAMENTO, CONDIÇÕES PARA FECHAMENTO HORA) Conteúdo: ITEM: 1 |SEQUÊNCIA DE FECHAMENTO: 14T3 (b) | CONDIÇÕES PARA FECHAMENTO: Autorização do OPS (a); Tensão 242 > V > 219 kV; Tape do 04T3 na faixa de 4 a 7 | CELULA UNICA: (a) OPS: Autorização do COSR-NE; (b) Na indisponibilidade do 04T3, nas mesmas condições energizar o 04T2 (c); (c) Na indisponibilidade do 04T2, nas mesmas condições energizar o 04T1.\nITEM: 2|SEQUÊNCIA DE FECHAMENTO: 12T3(a) | CONDIÇÕES PARA FECHAMENTO: null | CELULA UNICA: (a) Estando o 14T2 fechado, fechar o 12T2 ou estando o 14T1 fechado, fechar o 12T1.\nITEM: 3|SEQUÊNCIA DE FECHAMENTO: 11T7 (a)| CONDIÇÕES PARA FECHAMENTO: - 04T3 energizado| CELULA UNICA: (a)Na indisponibilidade do 11T7, prosseguir a recomposição.\nITEM: 4|SEQUÊNCIA DE FECHAMENTO: 12L1, 12L2 e 12L4)| CONDIÇÕES PARA FECHAMENTO:- Observar limite de operação do trafo; - Regular tensão conforme os parâmetros de tensão desta IO.\nITEM: 5|SEQUÊNCIA DE FECHAMENTO: 14T2 (a)| CONDIÇÕES PARA FECHAMENTO:- Tensão 242 > V > 219 kV; - Tape na faixa de 4 a 7. | CELULA UNICA: (a) Na indisponibilidade do 04T2, nas mesmas condições energizar o 04T1.\nITEM: 6 |SEQUÊNCIA DE FECHAMENTO: 12T2 (a)| CONDIÇÕES PARA FECHAMENTO: null | CELULA UNICA: (a) Estando o 14T1 fechado, fechar o 12T1.\nITEM: 7 |CELULA UNICA: Equiparar o tape do 04T2 ao tape do trafo em operação.\nITEM: 8|SEQUÊNCIA DE FECHAMENTO: 12L5| CONDIÇÕES PARA FECHAMENTO: - Observar limite de operação do trafo; - Regular tensão conforme os parâmetros de tensão desta IO.\nITEM: 9|SEQUÊNCIA DE FECHAMENTO: 14T1| CONDIÇÕES PARA FECHAMENTO: - Tensão 242 > V > 219 kV; - Tape na faixa de 4 a 7.\nITEM: 10|SEQUÊNCIA DE FECHAMENTO: 12T1| CONDIÇÕES PARA FECHAMENTO: -\nITEM: 11| CELULA UNICA: Equiparar o tape do 04T1 ao tape dos trafos em operação.\nITEM: 12|CELULA UNICA: Normalizar operação conjunta dos tapes do 04T1/T2/T3, colocando os mesmos na posição automático.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|3",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "1",
+    "numero_tabela": "3",
+    "titulo_tabela": "TABELA III -Preparação da SE PLO para recomposição após Desligamento Total da Instalação, conforme subitem 5.3.1 da IO-OI.NE.PLO",
+    "texto": "TABELA: III / ITEM: 1 / Conteúdo: PROCEDIMENTO: Confirmar ou colocar IHM no nível 3.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|3",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "2",
+    "numero_tabela": "3",
+    "titulo_tabela": "TABELA III -Preparação da SE PLO para recomposição após Desligamento Total da Instalação, conforme subitem 5.3.1 da IO-OI.NE.PLO",
+    "texto": "TABELA: III / ITEM: 2 / Conteúdo: PROCEDIMENTO: Rearmar as chaves de bloqueio atuadas",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|3",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "3",
+    "numero_tabela": "3",
+    "titulo_tabela": "TABELA III -Preparação da SE PLO para recomposição após Desligamento Total da Instalação, conforme subitem 5.3.1 da IO-OI.NE.PLO",
+    "texto": "TABELA: III / ITEM: 3 / Conteúdo: PROCEDIMENTO: OPS – Executar a ferramenta de “Preparação Automática” para abertura de todos os disjuntores de 230, 69 e 13.8 kV da Chesf, exceto 14D1.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|3",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "4",
+    "numero_tabela": "3",
+    "titulo_tabela": "TABELA III -Preparação da SE PLO para recomposição após Desligamento Total da Instalação, conforme subitem 5.3.1 da IO-OI.NE.PLO",
+    "texto": "TABELA: III / ITEM: 4 / Conteúdo: PROCEDIMENTO: Abrir ou confirmar abertos todos os disjuntores de 230, 69 kV e 13.8 kV operados pela CHESF, exceto o 14D1.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|3",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "5",
+    "numero_tabela": "3",
+    "titulo_tabela": "TABELA III -Preparação da SE PLO para recomposição após Desligamento Total da Instalação, conforme subitem 5.3.1 da IO-OI.NE.PLO",
+    "texto": "TABELA: III / ITEM: 5 / Conteúdo: PROCEDIMENTO: Confirmar fechado ou fechar o 14D1.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|3",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "6",
+    "numero_tabela": "3",
+    "titulo_tabela": "TABELA III -Preparação da SE PLO para recomposição após Desligamento Total da Instalação, conforme subitem 5.3.1 da IO-OI.NE.PLO",
+    "texto": "TABELA: III / ITEM: 6 / Conteúdo: PROCEDIMENTO: Confirmar abertos os disjuntores 14C1, 14C2, 14P1, 14P2 (AFLUENTE), 14P3(GUARANI) e 14P4 (APOENA), caso negativo, o OPS deve solicitar ao COSR-NE fechamento por parte dos acessantes.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|3",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "7",
+    "numero_tabela": "3",
+    "titulo_tabela": "Colocar comutador de tape do 04T1/T2/T3 na posição “Manual/Individual”.",
+    "texto": "TABELA: III / ITEM: 7 / Conteúdo: PROCEDIMENTO: ",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|3",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "8",
+    "numero_tabela": "3",
+    "titulo_tabela": "TABELA III -Preparação da SE PLO para recomposição após Desligamento Total da Instalação, conforme subitem 5.3.1 da IO-OI.NE.PLO",
+    "texto": "TABELA: III / ITEM: 8 / Conteúdo: PROCEDIMENTO: Posicionar tape do:\n• 1o Transformador fase coordenada - 04T1ou 04T2 ou 04T3 na faixa de 4 a 7; \n• 2o Transformador fase coordenada - 04T1ou 04T2 ou 04T3 na faixa de 4 a 7; \n• 3o Transformador fase coordenada - 04T1ou 04T2 ou 04T3 na faixa de 4 a 7.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|3",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "9",
+    "numero_tabela": "3",
+    "titulo_tabela": "TABELA III -Preparação da SE PLO para recomposição após Desligamento Total da Instalação, conforme subitem 5.3.1 da IO-OI.NE.PLO",
+    "texto": "TABELA: III / ITEM: 9 / Conteúdo: PROCEDIMENTO: Confirmar 04B1 e 04B2 sem tensão.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "1",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 1 / Conteúdo: SEQUÊNCIA DE FECHAMENTO: 14T3(b)| CONDIÇÕES PARA FECHAMENTO: - Autorização do OPS(a);\n- Tensão 242 > V > 219 kV; \n- Tape do 04T3 na faixa de 4 a 7.\n| AÇÕES: (a)OPS: Autorização do COSR-NE;\n(b) Na indisponibilidade do 04T3, nas mesmas condições energizar o 04T2 (c);\n(c)Na indisponibilidade do 04T2, nas mesmas condições energizar o 04T1.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "2",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 2 / Conteúdo: SEQUÊNCIA DE FECHAMENTO: 12T3(a)| CONDIÇÕES PARA FECHAMENTO: null| AÇÕES: (a) Estando o 14T2 fechado, fechar o 12T2 ou estando o 14T1 fechado, fechar o 12T1.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "3",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 3 / Conteúdo: SEQUÊNCIA DE FECHAMENTO: 11T7 (a)| CONDIÇÕES PARA FECHAMENTO: null | AÇÕES: (a)Na indisponibilidade do 11T7 prosseguir a recomposição.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "4",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 4 / Conteúdo: SEQUÊNCIA DE FECHAMENTO: 12L1, 12L2 e 12L4 | CONDIÇÕES PARA FECHAMENTO: - Observar limite de operação do trafo; - Regular tensão conforme os parâmetros de tensão desta IO.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "5",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 5 / Conteúdo: SEQUÊNCIA DE FECHAMENTO: 14T2 (a)| CONDIÇÕES PARA FECHAMENTO: - Tensão 242 > V > 219 kV; \n- Tape na faixa de 4 a 7.| AÇÕES: (a) Na indisponibilidade do 04T2, nas mesmas condições energizar o 04T1.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "6",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 6 / Conteúdo: SEQUÊNCIA DE FECHAMENTO: 12T2 (a)| CONDIÇÕES PARA FECHAMENTO: - null | AÇÕES: (a) Estando o 14T1 fechado, fechar o 12T1.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "7",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 7 / Conteúdo: AÇÕES: Equiparar o tape do 04T2 ao tape do trafo em operação.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "8",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 8 / Conteúdo: SEQUÊNCIA DE FECHAMENTO: 12L5| CONDIÇÕES PARA FECHAMENTO: - Observar limite de operação do trafo; /n-Regular tensão conforme os parâmetros de tensão desta IO.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "9",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 9 / Conteúdo: SEQUÊNCIA DE FECHAMENTO: 14T1| CONDIÇÕES PARA FECHAMENTO: - Tensão 242 > V > 219 kV; /n- Tape na faixa de 4 a 7.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "10",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 10 / Conteúdo: SEQUÊNCIA DE FECHAMENTO:12T1| CONDIÇÕES PARA FECHAMENTO: - null",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "11",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 11 / Conteúdo: AÇÕES: Equiparar o tape do 04T1 ao tape dos trafos em operação.",
+    "hora": null
+  },
+  {
+    "id_doc": "IO-PLO.01-ed-17a",
+    "parent_id": "IO-PLO.01-ed-17a|ANEXO II|4",
+    "tipo": "procedimento",
+    "id_secao": "ANEXO II",
+    "titulo_secao": "ANEXO II - PROCEDIMENTOS DA SE PLO APÓS DESLIGAMENTO TOTAL DA INSTALAÇÃO",
+    "numero_item": "12",
+    "numero_tabela": "4",
+    "titulo_tabela": "TABELA IV - Recomposição da SE PLO após Desligamento Total da Instalação, conforme subitem 5.3.2 da IO-OI.NE.PLO",
+    "texto": "TABELA: IV / ITEM: 12 / Conteúdo: AÇÕES: Normalizar operação conjunta dos tapes do 04T1/T2/T3, colocando os mesmos na posição automático.",
+    "hora": null
+  }
+
+]
+

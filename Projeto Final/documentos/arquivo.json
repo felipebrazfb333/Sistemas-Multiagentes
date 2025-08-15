@@ -1,0 +1,215 @@
+[
+  {
+    "id_doc": "IO.0001",
+    "tipo": "objetivo",
+    "id_secao": "1",
+    "titulo_secao": "OBJETIVO",
+    "texto": "Orientar e definir procedimentos operativos em condições de desligamento total da SE Pólo (PLO) a serem adotados pelos Operadores de Sistema (OPS) do OPS e Técnicos de O&M da SE JCR."
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.1",
+    "texto": "2.1 No desligamento geral da SE, o OPS é o responsável pela ativação da ferramenta de “Preparação Automática” da instalação"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.2",
+    "texto": "2.2 Os equipamentos da SE PLO possuem supervisão de eventos e alarmes de sinalização através do SAGE na DOSSS e na SE PLO"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.3",
+    "texto": "2.3 Na SE PLO a IHM SAGE deve estar normalmente no nível 3"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.4",
+    "texto": "2.4 A mudança de configuração dos barramentos de 230 kV é executada com controle do ONS"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.5",
+    "texto": "2.5 Os barramentos de 230 kV, pertencentes à Rede de Operação, têm a sua regulação de tensão controlada pelo ONS"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.6",
+    "texto": "2.6 A movimentação dos comutadores sob carga da transformação 230/69 kV é executada com autonomia pela operação da Chesf"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.7",
+    "texto": "2.7 Caso haja a necessidade da SE PLO ser atendida localmente, o OPS deve delegar a ação aos Técnicos de O&M da SE JCR que estão em horário comercial"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.8",
+    "texto": "2.8 Durante a permanência do Técnico de O&M da SE JCR na SE PLO, os alarmes sonoros do SAGE e dos painéis convencionais da Instalação devem permanecer habilitados"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.9",
+    "texto": "2.9 O religamento automático das linhas deve permanecer como encontrava-se antes da ocorrência"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "premissa",
+    "id_secao": "2",
+    "titulo_secao": "PREMISSAS",
+    "numero_item": "2.10",
+    "texto": "2.10 O automatismo dos serviços auxiliares deve estar normalmente ativado, permitindo a comutação automática para o GGE em caso de perda da fonte principal"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.1",
+    "texto": "3.1 Identificar se o desligamento foi “total”, caracterizado pela falta total de tensão na instalação (barras e linhas/links), exceto serviços auxiliares"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.2",
+    "texto": "3.2 Adotar as providências para normalizar a instalação, e se necessário, solicitar o apoio do Técnico de O&M da SE JCR para reconhecimento da ocorrência e demais providências necessárias"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.3",
+    "texto": "3.3 Identificar configuração dos Serviços Auxiliares através do GGE"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.4",
+    "texto": "3.4 Analisar as sinalizações e/ou alarmes do SAGE, a configuração da SE e a atuação de chaves de bloqueio, visando caracterizar ou não impedimentos, conforme IN-OP"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.5",
+    "texto": "3.5 Não existindo impedimento prosseguir, caso contrário ir para o subitem 3"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.5.1",
+    "texto": "3.5.1 Utilizar o Anexo I quando do desligamento total a Região Nordeste e o Anexo II para os demais casos"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6",
+    "texto": "3.6 Existindo impedimento:"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6.1",
+    "texto": "3.6.1 Confirmada a existência de impedimento, caracterizado por:"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6.2",
+    "texto": "3.6.2 Solicitar do Técnico de O&M da SE JCR, as seguintes informações:"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6.3",
+    "texto": "3.6.3 Confirmação dos equipamentos impedidos ou outros impedimentos e motivos dos mesmos;"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6.4",
+    "texto": "3.6.4 Principais sinalizações indicadas, chaves de bloqueios e proteções atuadas;"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6.5",
+    "texto": "3.6.5 Resultados da inspeção no pátio e as ações de isolamento adotadas ou confirmadas;"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6.6",
+    "texto": "3.6.6 Providências tomadas e a configuração atual da instalação"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento_inicial",
+    "id_secao": "3",
+    "titulo_secao": "PROCEDIMENTOS INICIAIS",
+    "numero_item": "3.6.7",
+    "texto": "3.6.7 Recompor a instalação, após o isolamento do equipamento impedido, considerando a nova configuração, ou solicitar a recomposição pelo Técnico de O&M da SE JCR, definindo qual a sequência de manobras a ser adotada"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento",
+    "id_secao": "4",
+    "titulo_secao": "PROCEDIMENTOS DA SE PLO APÓS Desligamento TOTAL da Região Nordeste",
+    "texto": "Atenção:"
+  },
+  {
+    "id_doc": "IO.0001",
+    "tipo": "procedimento",
+    "id_secao": "5",
+    "titulo_secao": "PROCEDIMENTOS DA SE PLO APÓS Desligamento TOTAL DA INSTALAÇÃO",
+    "texto": "Atenção:"
+  }
+]
